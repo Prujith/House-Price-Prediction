@@ -1,7 +1,5 @@
 # House Price Prediction in Ames, Iowa
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 This repository contains the code and resources for a machine learning model to predict house prices in Ames, Iowa. The model is based on the Kaggle competition [House Prices - Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques), where participants are challenged to predict house prices based on various features.
 
 ## Table of Contents
@@ -9,30 +7,11 @@ This repository contains the code and resources for a machine learning model to 
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Requirements](#requirements)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Model](#model)
 - [Evaluation](#evaluation)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
-
-# House Price Prediction in Ames, Iowa
-
-This repository contains the code and resources for a machine learning model to predict house prices in Ames, Iowa. The model is based on the Kaggle competition [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques), where participants are challenged to predict house prices based on various features.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model](#model)
-- [Evaluation](#evaluation)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -82,11 +61,11 @@ The best-performing model was selected based on its performance on the validatio
 
 ## Evaluation
 
-The evaluation metric used for this project is the Root Mean Squared Error (RMSE). We split the training data into a training set and a validation set to assess the model's performance before making predictions on the test set. Data preprocessing steps included handling missing values, feature engineering, and normalization.
+The evaluation metric used for this project is the Root Mean Squared Error (RMSE), Mean Absolute Error, and R2 Score. We split the training data into a training set and a validation set to assess the model's performance before making predictions on the test set. Data preprocessing steps included handling missing values, feature engineering, and normalization.
 
 ## Results
 
-Our best-performing model achieved an RMSE of 0.125 on the validation set, indicating a good fit to the data. We made predictions on the test set, and the results can be found in the `predictions.csv` file. The detailed analysis and visualizations can be seen in the [House_Price_Prediction.ipynb](House_Price_Prediction.ipynb) notebook.
+Our best-performing model achieved an accuracy of 83.28 (R2 score) on the validation set, indicating a good fit to the data. The detailed analysis can be seen in the [House_Price_Prediction.ipynb](House_Price_Prediction.ipynb) notebook.
 
 ## Contributing
 
